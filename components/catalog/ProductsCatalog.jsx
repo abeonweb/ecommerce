@@ -38,7 +38,7 @@ const Products = ({ productsCatalog }) => {
         searchInput={searchInput}
         setSearchInput={setSearchInput}
       />
-      <section className="max-w-[1124px] mx-auto px-5 md:px-0 grid xs:grid-cols-2 lg:grid-cols-3 gap-x-7">
+      <section className="max-w-[1124px] mx-auto px-3 md:px-0 grid xs:grid-cols-2 lg:grid-cols-3 gap-x-7">
         {filteredProducts.map((product) => (
           <CatalogCard key={product.id} product={product} />
         ))}

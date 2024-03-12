@@ -4,7 +4,7 @@ import CatalogProductInfo from "./CatalogProductInfo";
 
 function CatalogCard({ product }) {
   return (
-    <article className="mx-auto font-poppins w-[185px] md:w-[250px] xl:w-[356px] text-lightgray-951 pb-[26px]">
+    <article className="mx-auto font-poppins w-[182px] md:w-[250px] xl:w-[356px] text-lightgray-951 pb-[26px]">
       {/* Catalog Image */}
       <CatalogProductImage
         productImage={product.productImage}

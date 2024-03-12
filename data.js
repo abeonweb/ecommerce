@@ -54,9 +54,9 @@ export const products = [
         ],
         alt: "consequent sent nostrum met.",
         sales: 15,
-        tags: ["electronics", "equipment"],
+        tags: ["electronics"],
         related: ["p27", "p27", "p27", "p27"],
-        related: ["p27", "p27", "p27", "p27"]
+        sizes: ["s","m","l"],
     },
     {
         id: "p13",
@@ -79,8 +79,9 @@ export const products = [
         ],
         alt: "consequent sent nostrum met.",
         sales: 125,
-        tags: ["electronics", "equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        tags: ["electronics"],
+        related: ["p27", "p27", "p27", "p27"],
+        colors: ["#23A6F0","#252B42"]
     },
     {
         id: "p14",
@@ -104,7 +105,7 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
     },
     {
         id: "p15",
@@ -128,7 +129,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#252B42"]
     },
     {
         id: "p16",
@@ -152,7 +155,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["electronics", "equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p17",
@@ -176,7 +181,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: [],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0"]
     },
     {
         id: "p18",
@@ -200,7 +207,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: [],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#252B42"]
     },
     {
         id: "p19",
@@ -224,7 +233,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p20",
@@ -248,7 +259,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p21",
@@ -272,7 +285,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: [],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p22",
@@ -296,7 +311,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p23",
@@ -320,7 +337,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p24",
@@ -343,8 +362,10 @@ export const products = [
         ],
         alt: "consequent sent nostrum met.",
         sales: 15,
-        tags: ["equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        tags: ["electronics"],
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p25",
@@ -368,7 +389,9 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: [],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p26",
@@ -392,12 +415,14 @@ export const products = [
         alt: "consequent sent nostrum met.",
         sales: 15,
         tags: ["electronics", "equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
     {
         id: "p27",
         profileImage: "/profile_image.jpg",
-        productImage: "/plate_set.webp",
+        productImage: "/television.webp",
         title: "Graphic Design",
         price: 1999.00,
         oldPrice: 1999.00,
@@ -415,8 +440,10 @@ export const products = [
         ],
         alt: "consequent sent nostrum met.",
         sales: 15,
-        tags: ["electronics", "equipment"],
-        related: ["p27", "p27", "p27", "p27"]
+        tags: ["equipment"],
+        related: ["p27", "p27", "p27", "p27"],
+        sizes: ["s","m","l"],
+        colors: ["#23A6F0","#2DC071","#E77C40","#252B42"]
     },
 ]
 

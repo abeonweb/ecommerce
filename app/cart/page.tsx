@@ -12,8 +12,8 @@ export default function CartPage() {
   const [steps, setSteps] = useState(STEPS);
   const [active, setActive] = useState(STEPS[0].title);
   return (
-    <main className="font-inter pt-10">
-      <Link href={"/"} className="flex gap-x-0.5 pl-2 md:pl-10 lg:pl-[120px]">
+    <>
+      <Link href={"/"} className="flex gap-x-0.5 pl-2 md:pl-10 xl:pl-[120px] pt-10">
         <ChevronLeftIcon className="h-4 w-4 md:h-6 md:w-6 text-gray-500" />
         <span className="text-xs md:text-base">Back to catalog</span>
       </Link>
@@ -22,6 +22,6 @@ export default function CartPage() {
       {active == "Cart" && <CartSection setActive={setActive} setSteps={setSteps} />}
       {active == "Checkout details" && <CheckoutSection setActive={setActive} setSteps={setSteps}/>}
       {active == "Order complete!" && <OrderComplete />}
-    </main>
+    </>
   )
 }

@@ -20,7 +20,7 @@ export default function ProductImageCarousel({ images }) {
   };
 
   return (
-    <div className="carouselContainer">
+    <div className="carouselContainer self-center lg:self-start">
       <div className="carousel">
         <Image
           width={24}
@@ -44,6 +44,7 @@ export default function ProductImageCarousel({ images }) {
               src={image.image_url}
               alt=""
               className="slide"
+              priority
             />
           ))}
         </div>

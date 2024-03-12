@@ -19,7 +19,7 @@ export default function CatalogProductInfo({ product }) {
   });
 
   return (
-    <div className="lg:flex gap-x-4">
+    <div className="lg:flex gap-x-4 pt-[10px] md:pt-4">
       {/* Profile Picture */}
       <div className="hidden lg:block">
         <Image
@@ -51,7 +51,7 @@ export default function CatalogProductInfo({ product }) {
               <span className="hidden lg:block">{sales} sales</span>
               <span>
                 {/* Rating */}
-                <span className="inline-block" aria-label={`${rating} stars`}>
+                <span className="inline-block" title={`${rating} stars`}>
                   <Image
                     width={18}
                     height={18}
@@ -62,7 +62,7 @@ export default function CatalogProductInfo({ product }) {
                   {ratingValue}
                 </span>{" "}
                 {/* Reviews */}
-                <span className="" aria-label={`${reviews} reviews`}>
+                <span className="" title={`${reviews} reviews`}>
                   {` (${reviews})`}
                 </span>
               </span>

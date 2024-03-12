@@ -14,10 +14,8 @@ export default function Layout({
 }>) {
   return (
     <main>
-      <div>
-        <Navigation />
-        {children}
-      </div>
+      <Navigation />
+      {children}
     </main>
   );
 }

@@ -27,6 +27,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/product/page.jsx"
-, "app/page.tsx", "app/api/route.ts"  ],
+, "app/page.tsx", "app/api/route.ts", "lib/action.ts", "lib/data/fetch.js"  ],
   "exclude": ["node_modules"]
 }

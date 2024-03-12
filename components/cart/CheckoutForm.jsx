@@ -2,12 +2,11 @@ import ContactInfo from "./ContactInfo";
 import ShippingAddress from "./ShippingAddress";
 import ShippingMethod from "./ShippingMethod";
 import PaymentMethod from "./PaymentMethod";
+import { sendPurchaseOrder } from "@/lib/action";
 
 const CheckoutForm = ({ setActive, setSteps }) => {
   return (
-    <form  action={()=>{
-      
-    }} 
+    <form  action={sendPurchaseOrder} 
     className="max-w-[643px] mx-auto px-2 md:px-0 text-lightgray-953 pb-[120px]">
       <ContactInfo />
       <ShippingAddress />

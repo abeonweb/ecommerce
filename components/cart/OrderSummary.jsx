@@ -63,6 +63,19 @@ export default function OrderSummary({}) {
       minimumFractionDigits: 2,
     }
   );
+  const subtotal = total.toLocaleString(
+    undefined,
+    {
+      minimumFractionDigits: 2,
+    }
+  );
+
+  const shippingCost = shipping.toLocaleString(
+    undefined,
+    {
+      minimumFractionDigits: 2,
+    }
+  );
 
   return (
     <div className="max-w-[413px] mx-auto xl:mx-0 w-full h-full text-primaryblack-955 mb-20 pt-10 pl-[13px] md:pl-6 pr-[13px] border rounded border-lightgray-950">
@@ -86,11 +99,11 @@ export default function OrderSummary({}) {
       <div className="md:pr-[11px]">
         <p className=" flex justify-between leading-[26px] pb-[13px] border-b border-offwhite-952">
           <span className="font-medium">Shipping</span>
-          <span className="font-semibold">{`${currency}${shipping}`}</span>
+          <span className="font-semibold">{`${currency}${shippingCost}`}</span>
         </p>
         <p className=" flex justify-between leading-[26px] pb-[13px] border-b border-offwhite-952">
           <span className="font-medium">Subtotal</span>
-          <span className="font-semibold">{`${currency}${total}`}</span>
+          <span className="font-semibold">{`${currency}${subtotal}`}</span>
         </p>
         <p className="text-2xl font-bold leading-7 flex justify-between border-t border-offwhite-950 pt-[13px] pb-10">
           <span className="">Total</span>
